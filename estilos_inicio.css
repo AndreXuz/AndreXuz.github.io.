@@ -1,0 +1,158 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    overflow: hidden;
+    background-color: #121212;
+    color: #FFFFFF;
+}
+
+
+nav {
+    width: 100vw;
+    height: 15vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    background-color: #19d85c;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    z-index: 2;
+}
+
+.nav1, .nav2, .nav3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav1 {
+    width: 33vw;
+}
+
+.nav1 img {
+    max-height: 60%;
+}
+
+.nav2 {
+    width: 34vw;
+    font-size: 1.5em;
+    color: #FFFFFF;
+}
+
+.nav3 {
+    width: 33vw;
+}
+
+.nav3 ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav3 ul li a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+section {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 2em;
+}
+
+#seccion_inicio {
+    background: #28282888;
+}
+
+#seccion_funciones {
+    background: #28282888;
+}
+
+#seccion_descargas {
+    background: #28282888;
+}
+
+#seccion_comentarios {
+    background: #28282888;
+}
+
+.videoFondo{
+    position: fixed;
+    left:0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -1;
+}
+
+#CONTENIDO_INICIO{
+    position: absolute;
+    left:0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+#CONTENIDO_SUP{
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#CONTENIDO_INF{
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.DIVISIONES_CONTENIDO{
+    width: 13vw;
+    height: 25vh;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+.DIVISIONES_CONTENIDO i{
+    font-size: 2rem;
+    color: white;
+    margin-bottom: 0.5rem;
+
+}
